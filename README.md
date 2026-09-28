@@ -1,5 +1,6 @@
 # Talíře v myčce
-###### Algoritmus inspirovaný skládáním talířů do myčky v domácnosti. Tak šíleně random a specifickej, že jsem to musel zkusit napsat v C.
+###### Algoritmus inspirovaný skládáním talířů do myčky v domácnosti. 
+###### Tak šíleně random a specifickej, že jsem to musel zkusit napsat v C.
 
 ## Pravidla
 Myčka má jednu řadu míst, do kterých se dá vložit talíř. Řada je složena z 2 "sub-řad", levá o délce [10] a pravá o délce [5].  
@@ -9,12 +10,24 @@ Talíře musí v myčce existovat tak, aby mezi nimi proudila voda a umyli se, j
 nesmí dotékat - nejlepší a nejefektivnější způsob je tedy řadit je - v levé subřadě od největšího po nejmenší a v pravé od nejmenšího po 
 největší.  
   
-Myčka je tedy seřazena správně ("připravena ke spuštění mytí") v tom okamžiku, kdy jsou obě řady správně seřazeny a vyplněny. 
+Myčka je tedy seřazena správně ("připraveno ke spuštění mycího programu") v tom okamžiku, kdy jsou obě řady správně seřazeny a vyplněny. 
+
+### Rozšířená varianta (nouzová)
+V praxi existují vlastně tři mezery, které nemají sice dedikovaný stojan, ale dá se do nich i přesto dát nouzově talíř - nazvěme je 
+rezervou.   
+  
+Tyto rezervy jsou:
+- zleva od levé subřady, 
+- mezi levou a pravou subřadou, 
+- zprava od pravé subřady.
+
+Kdyby se tedy kdykoliv stalo, že je více talířů, než se vejde do obou subřad, tyto mezery se dají využít. Ale talíře v nich ideálně 
+nedrží.  
 
 ## Návrh konceptu
 Řada talířů = pole o délce [x]. ...
 
-## Splnitelnost
+### Splnitelnost
 - [ ] přidání prvního talíře do prázdné řády
 - [ ] přidání do existující řady talířů
 - [ ] přidání do plné řady
@@ -23,5 +36,5 @@ Myčka je tedy seřazena správně ("připravena ke spuštění mytí") v tom ok
 - [ ] přesunutí, výměna za jiný talíř
 - [ ] ošetření nelogických situací a scénářů
 
-## Rozšíření
+### Rozšíření
 - [ ] opravení "nespustitelné" či "neplatné" řady k myčce.
