@@ -7,7 +7,7 @@ Myčka má jednu řadu míst, do kterých se dá vložit talíř. Řada je slož
 Existují čtyři druhy talířů: velký plochý (oběd), střední plochý (snídaně), malý plochý (podšálek), velký hluboký (polévka, nudle).  
   
 Talíře musí v myčce existovat tak, aby mezi nimi proudila voda a umyli se, jakmile se myčka zapne. V praxi to znamená, že se talíře 
-nesmí dotékat - nejlepší a nejefektivnější způsob je tedy řadit je - v levé části od největšího po nejmenší a v pravé od nejmenšího po 
+nesmí dotýkat - nejlepší a nejefektivnější způsob je tedy řadit je - v levé části od největšího po nejmenší a v pravé od nejmenšího po 
 největší.  
   
 Myčka je tedy seřazena správně ("připraveno ke spuštění mycího programu") v tom okamžiku, kdy jsou obě části správně seřazeny a vyplněny. 
@@ -28,7 +28,7 @@ nedrží.
 Řada talířů = pole o délce [x]. ...
 
 ### Splnitelnost
-- [ ] přidání prvního talíře do prázdné řády
+- [ ] přidání prvního talíře do prázdné řady
 - [ ] přidání do existující řady talířů
 - [ ] přidání do plné řady
 - [ ] přeskupování dle plnosti řady
