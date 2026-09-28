@@ -3,6 +3,6 @@ talire: talire.c
 
 run: talire
 	./talire
-
+	
 clean:
 	rm -f talire
