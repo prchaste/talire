@@ -4,6 +4,9 @@
 ## Pravidla
 Myčka má jednu řadu míst, do kterých se dá vložit talíř. 
 
+## Návrh konceptu
+Řada talířů = pole o délce [x]. ...
+
 ## Splnitelnost
 - [ ] přidání prvního talíře do prázdné řády
 - [ ] přidání do existující řady talířů
